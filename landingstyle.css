@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background: url('headerboat.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: deepskyblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: inline-block;
+}
+
+.search-form input {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+}
+
+.boats {
+    background-color: whitesmoke;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.boats h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.boat-grid {
+    text-align: center;
+}
+
+.boat-item {
+    background-color: white;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+
+.boat-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.view-all {
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.app-promo {
+    padding: 50px 0;
+    background: url('apppromo.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.app-link img {
+    width: 150px;
+    height: auto;
+}
+
+.newsletter {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+}
+
+.footer {
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+}
